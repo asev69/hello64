@@ -1,6 +1,6 @@
 	section .data
 message	db      27,"[1;34m"
-	db	"Всем привет!"
+	db	"Hello, 世界"
 	db	27,"[0m"
 	db	10
 msglen	equ     $-message
